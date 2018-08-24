@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Comprar Entradas</title>
+  </head>
+  <header>
+    <h1>Comprar Entradas</h1>
+  </header>
+  <body>
+    <form action="pagina3.html" method="post">
+    <label for="fecha">Fecha de Ticket : </label> <input type="date" id="fecha" name="fecha" required/><br><br>
+    <label for="horario">Horario : </label>
+    <select id="horario" name="horario">
+      <option value="14:00">14:00</option>
+      <option value="14:30">14:30</option>
+      <option value="21:00">21:00</option>
+      <option value="21:30">21:30</option>
+      <option value="22:00">22:00</option>
+      <option value="22:30">22:30</option>
+    </select><br><br>
+      <table>
+        <tr>
+          <th scope="col"><strong>TIPO DE TICKETS</strong></th>
+          <th scope="col"><strong>CANT:</strong></th>
+          <th scope="col"><strong>COSTO:</strong></th>
+          <th scope="col"><strong>SUBTOTAL:</strong></th>
+        </tr>
+        <tr>
+          <td>3D LUN A MIERC DESCUENTO: </td>
+          <td><select id="cantidad" name="cantidad">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select></td>
+          <td>$90.00</td>
+          <td>$810.00</td>
+        </tr>
+        <tr>
+          <td>2X1 3D BANCO SANTANDER RIO: </td>
+          <td><select id="cantidad" name="cantidad">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select></td>
+          <td>$75.00</td>
+          <td>$150.00</td>
+        </tr>
+        <tr>
+          <td>2X1 3D TARJETA NEVADA: </td>
+          <td><select id="cantidad" name="cantidad">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select></td>
+          <td>$75.00</td>
+          <td>$150.00</td>
+        </tr>
+        <tr>
+          <td>2X1 3D CLUB PERSONAL: </td>
+          <td><select id="cantidad" name="cantidad">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select></td>
+          <td>$75.00</td>
+          <td>$150.00</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Incluye Iva</td>
+          <td>TOTAL: </td>
+          <td>315.000</td>
+        </tr>
+      </table><br>
+      <input type="reset" name="Cancelar" value="Cancelar">
+      <input type="submit" name="Aceptar" value="Aceptar">
+      </form>
+  </body>
+</html>
